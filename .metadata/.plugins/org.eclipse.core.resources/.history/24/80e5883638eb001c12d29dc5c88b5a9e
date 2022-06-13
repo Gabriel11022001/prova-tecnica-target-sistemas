@@ -1,0 +1,24 @@
+package com.gabriel.exercicios.exercicio2;
+
+public class Faturamento {
+
+	private Integer dia;
+	private double valor;
+	
+	public Faturamento(int dia, double valor) {
+		this.setDia(dia);
+		this.setValor(valor);
+	}
+	public int getDia() {
+		return dia;
+	}
+	public void setDia(int dia) {
+		this.dia = dia;
+	}
+	public double getValor() {
+		return valor;
+	}
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Gabriel\Desktop\exercicios prova target\.metadata\.plugins\org.eclipse.jdt.core
+1789088541.index
+3192088914.index
+1865797976.index
+719527718.index
+2726785889.index

@@ -1,0 +1,9 @@
+package com.gabriel.exercicios.exercicio2;
+
+public class Faturamento {
+
+	private int dia;
+	private double valor;
+	
+	
+}

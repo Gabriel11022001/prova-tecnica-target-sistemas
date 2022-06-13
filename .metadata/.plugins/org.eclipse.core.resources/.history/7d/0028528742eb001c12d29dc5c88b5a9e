@@ -1,0 +1,12 @@
+package com.gabriel.exercicios.exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		String valor = "", valorInvertido = "";
+		Scanner entrada = new Scanner(System.in);
+		
+	}
+}

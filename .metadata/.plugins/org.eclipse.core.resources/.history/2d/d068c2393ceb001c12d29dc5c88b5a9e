@@ -1,0 +1,12 @@
+package com.gabriel.exercicios.exercicio3;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		double faturamentoSP = 67.837;
+		double faturamentoRJ = 36.679;
+		double faturamentoMG = 29.230;
+		double faturamentoES = 27.166;
+		double faturamentoOutros = 
+	}
+}

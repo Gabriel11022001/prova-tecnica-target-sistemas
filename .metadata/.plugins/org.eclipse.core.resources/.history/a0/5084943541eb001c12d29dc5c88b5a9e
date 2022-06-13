@@ -1,0 +1,32 @@
+package com.gabriel.exercicios.exercicio2;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int numero = 0;
+		boolean pertenceASequencia = false;
+		List<Integer> valoresSequencia = new ArrayList<Integer>();
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Informe um número:");
+		numero = entrada.nextInt();
+		valoresSequencia.add(0);
+		valoresSequencia.add(1);
+		valoresSequencia.add(1);
+		if (numero < 0) {
+			System.out.println("O valor " + numero + " não pertence a sequência!");
+			return;
+		}
+		if (valoresSequencia.contains(numero)) {
+			System.out.println("O valor " + numero + " pertence a sequência!");
+			return;
+		}
+		for (int i = 2; pertenceASequencia == false; i++) {
+			double valorAtual = valoresSequencia.get(i);
+			int
+		}
+	}
+}

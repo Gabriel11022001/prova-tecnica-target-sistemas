@@ -1,0 +1,27 @@
+package com.gabriel.exercicios.exercicio2;
+
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.parser.JSONParser;
+
+public class Exercicio {
+
+	private static List<Faturamento> lerDados() throws Exception {
+		List<Faturamento> faturamentos = new ArrayList<Faturamento>();
+		JSONParser jsonParser = new JSONParser();
+		JSONArray jsonArray = (JSONArray) jsonParser.parse(new InputStreamReader(new FileInputStream("dados.son")));
+		return faturamentos;
+	}
+	public static void main(String[] args) {
+		try {
+			List<Faturamento> faturamentos = lerDados();
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

@@ -1,0 +1,22 @@
+package com.gabriel.exercicios.exercicio2;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int numero = 0;
+		boolean pertenceASequencia = false;
+		int valorEsquerda = 0;
+		int valorDireita = 1;
+		int valorEsquerdaAux = 0;
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Informe um número:");
+		numero = entrada.nextInt();
+		while (pertenceASequencia == false) {
+			valorEsquerdaAux = valorDireita;
+			valorDireita += valorEsquerda;
+			valorEsquerda = valorDireita;
+		}
+	}
+}

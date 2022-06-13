@@ -1,0 +1,14 @@
+package com.gabriel.exercicios.exercicio2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Exercicio {
+
+	private static List<Faturamento> lerDados() throws Exception {
+		List<Faturamento> faturamentos = new ArrayList<Faturamento>();
+	}
+	public static void main(String[] args) {
+		List<Faturamento> faturamentos = lerDados();
+	}
+}
